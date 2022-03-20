@@ -17,7 +17,10 @@ public class LevelManager : MonoBehaviour
         //Debug.Log(LineLetters.isWordControl);
         foreach(string word in level.words)
        {
-         
+         if(word == LineLetters.isWordControl)
+         {
+             Debug.Log("kelime bulundu");
+         }
        }
     }
     
