@@ -9,7 +9,7 @@ public class LineLetters : MonoBehaviour
   private int currentLetterId = 0;
   private List<GameObject> letterObject = new List<GameObject>();
   public Text wordText;
-  
+  public static string isWordControl;
   private SpriteRenderer letterColor;
 
   void Update()
@@ -36,15 +36,20 @@ public class LineLetters : MonoBehaviour
       
       if(Input.GetMouseButtonUp(0))
       {
-        if(wordText.text != "AAAA")
-        {
-          foreach(GameObject letter in letterObject)
-          {
-            letter.gameObject.GetComponentInChildren<SpriteRenderer>().color = new Color32(66,154,145,255);
-            wordText.text = "";
-          }
-        }
+        isWordControl = wordText.text;
+        //Debug.Log(isWordControl);
       }
   }
   
 }
+
+
+
+
+
+
+ /*foreach(GameObject letter in letterObject)
+          {
+            letter.gameObject.GetComponentInChildren<SpriteRenderer>().color = new Color32(66,154,145,255);
+            wordText.text = "";
+          }*/

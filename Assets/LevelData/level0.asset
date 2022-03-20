@@ -13,9 +13,37 @@ MonoBehaviour:
   m_Name: level0
   m_EditorClassIdentifier: 
   letters:
+  - {fileID: 7533704705267079051, guid: c82ee6bc198444148bf7dc5b090ab2cd, type: 3}
+  - {fileID: 7309218686304367865, guid: a62f4d2477f62ba46aa69a9e6bf93b09, type: 3}
+  - {fileID: 2982260683619885028, guid: c1baf11fd1f7ac945b669556b39938ec, type: 3}
+  - {fileID: 8633622153522442159, guid: bdeec0426715f8b42b26f43589ed7740, type: 3}
+  - {fileID: 7533704705267079051, guid: c82ee6bc198444148bf7dc5b090ab2cd, type: 3}
   - {fileID: 8903370159227539259, guid: f9136dd3173fc21409153063e9e7a44b, type: 3}
   - {fileID: 6255945109893712155, guid: 5eda45eaa9e05f748b65c614dcdbab37, type: 3}
-  - {fileID: 3506267501400757488, guid: bb8045dae696d004fa96cd6d7b144727, type: 3}
-  searchWords: []
+  - {fileID: 6052975184733038037, guid: 818710159af596b45b59d08a0d8dee14, type: 3}
+  - {fileID: 7309218686304367865, guid: a62f4d2477f62ba46aa69a9e6bf93b09, type: 3}
+  - {fileID: 8903370159227539259, guid: f9136dd3173fc21409153063e9e7a44b, type: 3}
+  - {fileID: 7533704705267079051, guid: c82ee6bc198444148bf7dc5b090ab2cd, type: 3}
+  - {fileID: 9049967078897489154, guid: ec15cab7f41d4524982fa08ae77cec61, type: 3}
+  - {fileID: 4457664104595300854, guid: 853a869f84658494993200f60b7d59d0, type: 3}
+  - {fileID: 205239713806770690, guid: 42bc6281c43eeb642a4c43e22d47a435, type: 3}
+  - {fileID: 3835709786164005936, guid: 8be34950d0b78614cbae6d3ccc9ee7fb, type: 3}
+  - {fileID: 7309218686304367865, guid: a62f4d2477f62ba46aa69a9e6bf93b09, type: 3}
+  - {fileID: 8903370159227539259, guid: f9136dd3173fc21409153063e9e7a44b, type: 3}
+  - {fileID: 205239713806770690, guid: 42bc6281c43eeb642a4c43e22d47a435, type: 3}
+  - {fileID: 7309218686304367865, guid: a62f4d2477f62ba46aa69a9e6bf93b09, type: 3}
+  - {fileID: 8903370159227539259, guid: f9136dd3173fc21409153063e9e7a44b, type: 3}
+  - {fileID: 8903370159227539259, guid: f9136dd3173fc21409153063e9e7a44b, type: 3}
+  - {fileID: 8903370159227539259, guid: f9136dd3173fc21409153063e9e7a44b, type: 3}
+  - {fileID: 3835709786164005936, guid: 8be34950d0b78614cbae6d3ccc9ee7fb, type: 3}
+  - {fileID: 2982260683619885028, guid: c1baf11fd1f7ac945b669556b39938ec, type: 3}
+  - {fileID: 3835709786164005936, guid: 8be34950d0b78614cbae6d3ccc9ee7fb, type: 3}
+  words:
+  - KARAR
+  - MASA
+  - "M\xDCLK"
+  - KABUS
+  - SERA
+  - PES
   height: 5
   widht: 5

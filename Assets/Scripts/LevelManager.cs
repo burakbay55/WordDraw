@@ -9,5 +9,16 @@ public class LevelManager : MonoBehaviour
     void Start()
     {
        level.Grid();
+       
     }
+
+    void Update()
+    {
+        //Debug.Log(LineLetters.isWordControl);
+        foreach(string word in level.words)
+       {
+         
+       }
+    }
+    
 }

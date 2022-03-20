@@ -8,18 +8,22 @@ public class GridSystem : ScriptableObject
 {
     
     public List<GameObject> letters;
-    public List<Text> searchWords;
+    public List<string> words = new List<string>();
     public int height;
     public int widht;
-    private int next = 0;
+    public static int next;
+
     public void Grid()
     {
+      
+      //create grid system.
       for(int i=0; i < height; i++)
       {
+        
         for(int j=0; j < widht; j++)
         {
-          GameObject letter = Instantiate(letters[0],new Vector2(i,j),Quaternion.identity);
-          
+          GameObject letter = Instantiate(letters[next],new Vector2(i,j),Quaternion.identity);
+          next++;   
         }
       }
     }
