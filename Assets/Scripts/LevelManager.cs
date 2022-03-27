@@ -4,24 +4,18 @@ using UnityEngine;
 
 public class LevelManager : MonoBehaviour
 {
-    public GridSystem level;
-    
-    void Start()
+    public List<GridSystem> level;
+    private int levelNumber = 0;
+    public static List<string> levelWords = new List<string>();
+    void Awake()
     {
-       level.Grid();
-       
+      level[levelNumber].Grid();
+
+      foreach(string word in level[levelNumber].words)
+      {
+        levelWords.Add(word);
+      }
+      
     }
 
-    void Update()
-    {
-        //Debug.Log(LineLetters.isWordControl);
-        foreach(string word in level.words)
-       {
-         if(word == LineLetters.isWordControl)
-         {
-             Debug.Log("kelime bulundu");
-         }
-       }
-    }
-    
 }
